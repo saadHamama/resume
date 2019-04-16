@@ -1,0 +1,11 @@
+== README
+
+A simple resume building application built with Ruby on Rails v 4.1.4
+
+* Install
+Clone the repo and run <tt>bundle install --witouth production</tt>
+Run locally by running <tt>rails server</tt> or deploy to heroku by running <tt>heroku create</tt>, and <tt>git push heroku master</tt>
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.

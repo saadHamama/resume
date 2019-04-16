@@ -1,0 +1,75 @@
+@import "settings";
+@import 'foundation';
+@import "foundation-icons";
+@import 'github';
+
+a.warning {
+  color: $alert-color;
+  &:hover, &:focus {
+    color: scale-color($alert-color, $lightness: -14%);
+  }
+}
+
+i[class*='fi-'] { margin-right: 0.5rem; }
+
+.size-12 { font-size: 12px; }
+
+.size-14 { font-size: 14px; }
+
+.size-16 { font-size: 16px; }
+
+.size-18 { font-size: 18px; }
+
+.size-21 { font-size: 21px; }
+
+.size-24 { font-size: 24px; }
+
+.size-36 { font-size: 36px; }
+
+.size-48 { font-size: 48px; }
+
+.size-60 { font-size: 60px; }
+
+.size-72 { font-size: 72px; }
+
+.gravatar {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #777;
+  padding: rem-calc(2);
+
+  &.index {
+    margin-top: 0;
+  }
+}
+
+pre {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+@media #{$medium-up} {
+  #sections section {
+    /*padding-bottom: 5rem;*/
+    /* min-height: 700px; */
+  }
+}
+#sections section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  hr {
+    margin-top: 0;
+  }
+}
+
+main.row {
+  margin-bottom: 100px;
+}
